@@ -2,8 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Sushil Sharma has vast experience in website designing, development, and optimization, and is also proficient in WordPress. I am in charge of testing and maintaining the applications and websites I develop, as well as the documentation that goes with them." />
+    <meta name="author" content="Sushil Sharma" />
+    <meta name="keywords"
+        content="HTML, CSS, Portfolio, Github, Github pages, Freelancer, Website Developement, JavaScript, PHP, Developer, Tailwind, Bootstrap, VSCode" />
     <title>Tolerance | Sushil Sharma</title>
     <style>
         html {
@@ -12,7 +17,8 @@
         }
 
         body {
-            font-family: "Proxima Nova Soft Semibold", "Proxima Nova", 'Helvetica Neue', Arial;
+            font-family: "Proxima Nova Soft Semibold", "Proxima Nova",
+                "Helvetica Neue", Arial;
         }
 
         body,
@@ -24,7 +30,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: url(https://source.unsplash.com/1024x768/?autumn) no-repeat, #303540;
+            background: url(https://source.unsplash.com/1024x768/?winter) no-repeat,
+                #262729;
             background-size: cover;
         }
 
@@ -33,14 +40,14 @@
             max-width: 530px;
             margin: 20px;
             overflow: hidden;
-            box-shadow: 0 60px 80px 0 rgba(0, 0, 0, .4);
+            box-shadow: 0 60px 80px 0 rgba(0, 217, 255, 0.4);
         }
 
         .box-top {
             padding: 30px 30px 20px;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
-            background: rgba(251, 251, 251, 1);
+            background: rgba(0, 0, 0, 1);
         }
 
         .box-icon {
@@ -69,25 +76,55 @@
             padding: 15px 55px;
             border-bottom-left-radius: 10px;
             border-bottom-right-radius: 10px;
-            background: #ffff;
+            background: #000;
         }
 
         .box-btn {
             margin: 10px auto;
-
         }
 
         .btn {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
             padding: 14px 20px;
             border: 0;
             border-radius: 25px;
-            font-size: 18px;
+            font-size: 32px;
             letter-spacing: 1px;
-            background-color: black;
+            background-color: #fff;
+            border: 2px solid #edff86;
+            position: absolute;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .btn:after {
+            content: "»";
+            position: absolute;
+            opacity: 0;
+            top: 14px;
+            right: -20px;
+            transition: 0.5s;
+            color: red;
+        }
+
+        .btn:hover {
+            background-color: #008cba;
+            box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),
+                0 17px 50px 0 rgba(255, 255, 255, 0.19);
+            padding-right: 24px;
+            padding-left: 8px;
+        }
+
+        .btn:hover:after {
+            opacity: 1;
+            right: 10px;
         }
 
         @media (min-width: 456px) {
-
             .box-top {
                 padding: 69px 0 65px;
             }
@@ -100,32 +137,38 @@
                 flex: 1;
                 margin: 0;
                 max-width: 190px;
-
             }
         }
     </style>
-    <script>alert("Stay Home, Stay Safe and Get Vaccinated")
+    <script>
+        alert("Stay Home, Stay Safe and Get Vaccinated");
         function hang() {
-            alert("Wish you luck to achieve more! 👍👍☺ Have fun with your celebration party for your very nice achievements 🎆🎇 Good luck on your goals. 2022 ...Make it big.")
-        }</script>
+            alert(
+                "Wish you luck to achieve more! 👍👍☺ Have fun with your celebration party for your very nice achievements 🎆🎇 Good luck on your goals. Cheers to 2022 ...Make it big."
+            );
+        }
+    </script>
 </head>
 
 <body>
     <div class="container">
         <div class="box">
             <div class="box-top">
-                <img class="box-icon img" src="https://cdn.pixabay.com/photo/2013/07/13/01/21/award-155595_960_720.png"
-                    alt="Reward" width="400" height="350">
                 <img class="box-icon img"
-                    src="https://www.agilites.com/images/news/news-congrads-kkluyshnik-02-04-19.jpg" alt="Message">
-
+                    src="https://cdn-icons.flaticon.com/png/512/2864/premium/2864060.png?token=exp=1641469383~hmac=4502e6d8682bbde8c8ea529dff3de939"
+                    alt="Reward" width="400" height="350" />
+                <img class="box-icon img"
+                    src="https://cdn-icons.flaticon.com/png/512/5129/premium/5129931.png?token=exp=1641469620~hmac=c8140f8c7bcd85fc6a05e6e9c049653e"
+                    alt="Message" />
                 <div class="box-header">
-                    Tolerance allows people to live happily together. It is the foundation of a just society in which
-                    everyone is free to live their life as they see fit.
-                    Being a tolerant person isn't easy. It's OK to keep to your own principles, but it's also a good
-                    idea to review them, especially if they have an impact on others. It must be apparent that everyone
-                    has their own beliefs and ideas, which must be respected and appreciated. Tolerance is the only
-                    option if we want to live in a peaceful society.
+                    <br />
+                    Tolerance is accepting people who are different from you or putting
+                    up with things you don't like. Being a tolerant person isn't easy.
+                    It's OK to keep to your own principles, but it's also a good idea to
+                    review them, especially if they have an impact on others. It must be
+                    apparent that everyone has their own beliefs and ideas, which must
+                    be respected and appreciated. Tolerance is the only option if we
+                    want to live in a peaceful society.
                 </div>
             </div>
             <div class="box-bottom">
