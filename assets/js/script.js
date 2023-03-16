@@ -2,6 +2,7 @@ alert("💖🥳 Cheers to you, and here's to making 2023 your best year yet!🎂
 async function displayBirthdayMessage() {
   try {
     const response = await fetch('assets/json/messages.json');
+    console.log(response); // log the response object to the console
     const data = await response.json();
 
     // Get a random message from the array
