@@ -1,4 +1,4 @@
-alert("💖🥳 Cheers to you, and here's to making 2023 your best year yet!🎂🎉 Celebrate and be happy.!🎇🧨");
+alert("💖🥳 Cheers to our friendship babe 🎂🎉 Let's Celebrate each and every moment & be happy mau!🎇🧨");
 async function displayBirthdayMessage() {
   try {
     const response = await fetch('assets/json/messages.json');
